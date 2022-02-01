@@ -1,0 +1,16 @@
+<div class="top-section">
+    <h1>Please enter an income or expense</h1>
+    <input type="text" placeholder="Enter Income or Expense" [(ngModel)]="descBinding">
+    <input type="number" placeholder="Enter amount" [(ngModel)]="amountBinding">
+    <button type="button"(click)="onAddItem()">Add</button>
+</div>
+<div class="alert" *ngIf="showAlert">
+    <p>Item Successfully added</p>
+</div>
+<div class="list-section">
+    <ul>
+        <li *ngFor="let item of items" [ngClass]="{expense: item.amount < 0}">
+            {{ item.desc }} {{ item.amount | currency:'GBP' }}
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,70 @@
+---- INCOME LIST -------------------------------
+.top-section, .list-section{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin-top: 1rem;
+    color: rgb(51, 51, 51);
+}
+
+input{
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 10px;
+    box-sizing: border-box;
+    background: transparent;
+    border: none;
+    border-bottom: solid 1px rgba(233,0,255,1);
+    transition: border 1s;
+}
+
+input:focus{
+    border-bottom: solid 1px rgb(159, 3, 174);
+    outline: none;
+}
+
+button{
+    padding: 10px 20px;
+    border: none;
+    background: rgb(3, 169, 202);
+    color: white;
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+ul li{
+    width: 100%;
+    background: rgb(19, 175, 19);
+    border: 1px solid black;
+    padding: 1rem;
+    box-sizing: border-box;
+    margin-bottom: 1px;
+    color: black;
+}
+
+.alert{
+    padding: 0rem;
+    box-sizing: border-box;
+    width: 60%;
+    border: 2px solid rgb(8, 43, 1);
+    text-align: center;
+    font-size: 0.8rem;
+    background: rgb(20, 150, 20);
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    margin-left: -30%;
+}
+
+.expense{
+    background-color: rgb(136, 15, 15) !important;
+    color: white !important;
+}
+

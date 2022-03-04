@@ -1,6 +1,7 @@
 # IncomeTracker
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.0.
+This project was part of a class tutorial of which I do not claim to hold the rights to the code
 
 ## Development server
 
